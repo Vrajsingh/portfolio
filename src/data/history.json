@@ -1,0 +1,10 @@
+[
+  {
+    "role": "Technology Consultant",
+    "organisation": "Technogise Pvt limited",
+    "startDate": "May, 2022",
+    "endDate": "Present",
+    "experiences": ["Ballys : Kafka, Spring Boot, MongoDB","Grow-wize : React, Java Spring Boot", "Shippit : Ruby on Rails, PostgreSQL"],
+    "imageSrc": "history/technogise.png"
+  }
+]

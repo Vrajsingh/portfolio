@@ -20,13 +20,13 @@ export const About = () => {
               <h3>Frontend Developer</h3>
               <br />
               <p>
-                I'm a frontend react developer with experience in building responsive
+                I'm a frontend React developer with experience in building responsive
                 and optimized sites 
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/uiIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <br />
@@ -37,7 +37,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/serverIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>Database Management</h3>
               <br />

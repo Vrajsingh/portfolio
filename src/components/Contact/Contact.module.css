@@ -61,18 +61,31 @@
   }
 
   .text h2 {
-    font-size: 50px; /* Reduce font size for smaller screens */
+    font-size: 50px;
   }
 
   .text p {
-    font-size: 25px; /* Reduce font size for smaller screens */
+    font-size: 25px;
   }
 
   .links {
-    align-items: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
   }
 
   .link a {
-    font-size: 24px; /* Reduce font size for smaller screens */
+    font-size: 20px;
+    word-wrap: break-word;
   }
 }

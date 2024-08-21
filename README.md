@@ -1,5 +1,5 @@
 # React + Vite
-## Website : https://66a7ea0311e7ee5bc77a0b9d--dainty-platypus-2d76f0.netlify.app/
+## Website : https://vishal-raj-portfolio.netlify.app/
 
 
 ### Things covered : 
@@ -9,7 +9,7 @@
 - React best practices
 - Advanced CSS techniques
 - Rendering JSON data
-- Deploying to internet
+- Deploying to Netlify
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

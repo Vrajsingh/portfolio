@@ -1,6 +1,7 @@
 # React + Vite
 ## Website : https://vishal-raj-portfolio.netlify.app/
 
+<img width="1726" alt="Vishal" src="https://github.com/user-attachments/assets/d7bed163-1468-42d0-a889-169fea197833">
 
 ### Things covered : 
 

@@ -1,26 +1,23 @@
 [
   {
-    "title": "MUMMY'S FOOD",
-    "imageSrc": "projects/projects.png",
-    "description": "An initiative to bring all women under one roof with the mission to provide Home Made Food.",
-    "skills": ["Javascript","Express", "MongoDB"],
-    "demo": "https://www.youtube.com/watch?v=hvTGhsViNnA",
-    "source": "https://github.com/Vrajsingh/MummysFood---Maa-Ke-Haath-Ka-Khana"
+    "title": "Grow-Wize",
+    "imageSrc": "projects/growwize.png",
+    "description": "A comprehensive feedback sharing platform.",
+    "skills": ["Java (v21)", "Spring Boot (v3.2)", "ReactJs", "Gitlab"],
+    "website": "https://grow-wize.com/"
   },
   {
-    "title": "MUMMY'S FOOD",
-    "imageSrc": "projects/projects.png",
-    "description": "An initiative to bring all women under one roof with the mission to provide Home Made Food.",
-    "skills": ["Javascript","Express", "MongoDB"],
-    "demo": "https://www.youtube.com/watch?v=hvTGhsViNnA",
-    "source": "https://github.com/Vrajsingh/MummysFood---Maa-Ke-Haath-Ka-Khana"
+    "title": "Ballys Corporation",
+    "imageSrc": "projects/ballys.png",
+    "description": "UK based leading omnichannel provider gaming platforms.",
+    "skills": ["Java (v8)", "Spring Boot (v2.5)", "MongoDB", "Kafka"],
+    "website": "https://www.ballys.com/home/default.aspx"
   },
   {
-    "title": "MUMMY'S FOOD",
-    "imageSrc": "projects/projects.png",
-    "description": "An initiative to bring all women under one roof with the mission to provide Home Made Food.",
-    "skills": ["Javascript","Express", "MongoDB"],
-    "demo": "https://www.youtube.com/watch?v=hvTGhsViNnA",
-    "source": "https://github.com/Vrajsingh/MummysFood---Maa-Ke-Haath-Ka-Khana"
+    "title": "Shippit",
+    "imageSrc": "projects/shippit.png",
+    "description": "An Australian shipping platform that connects businesses and individuals with couriers deliveries.",
+    "skills": ["Ruby on Rails", "MongoDB"],
+    "website": "https://www.shippit.com/"
   }
 ]

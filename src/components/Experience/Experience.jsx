@@ -9,61 +9,38 @@ export const Experience = () => {
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
 
-      {/* Skills Row 1 (first 5) */}
-      <div className={styles.skillRow}>
-        {skills.slice(0, 5).map((skill, index) => (
-          <div key={index} className={styles.skill}>
-            <div className={styles.skillImageContainer}>
-              <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+      <div className={styles.content}>
+        {/* Skills Block: First two rows */}
+        <div className={styles.skillsBlock}>
+          {skills.map((skill, id) => (
+            <div key={id} className={styles.skill}>
+              <div className={styles.skillImageContainer}>
+                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+              </div>
+              <p>{skill.title}</p>
             </div>
-            <p>{skill.title}</p>
-          </div>
-        ))}
-      </div>
-
-      {/* Skills Row 2 (next 4) */}
-      <div className={styles.skillRow}>
-        {skills.slice(5, 10).map((skill, index) => (
-          <div key={index} className={styles.skill}>
-            <div className={styles.skillImageContainer}>
-              <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-            </div>
-            <p>{skill.title}</p>
-          </div>
-        ))}
-      </div>
-
-      {/* History Row 1 */}
-      <div className={styles.historyItem}>
-        <img
-          src={getImageUrl(history[0].imageSrc)}
-          alt={`${history[0].organisation} Logo`}
-        />
-        <div className={styles.historyItemDetails}>
-          <h3>{`${history[0].role}, ${history[0].organisation}`}</h3>
-          <p>{`${history[0].startDate} - ${history[0].endDate}`}</p>
-          <ul>
-            {history[0].experiences.map((experience, id) => (
-              <li key={id}>{experience}</li>
-            ))}
-          </ul>
+          ))}
         </div>
-      </div>
 
-      {/* History Row 2 */}
-      <div className={styles.historyItem}>
-        <img
-          src={getImageUrl(history[1].imageSrc)}
-          alt={`${history[1].organisation} Logo`}
-        />
-        <div className={styles.historyItemDetails}>
-          <h3>{`${history[1].role}, ${history[1].organisation}`}</h3>
-          <p>{`${history[1].startDate} - ${history[1].endDate}`}</p>
-          <ul>
-            {history[1].experiences.map((experience, id) => (
-              <li key={id}>{experience}</li>
-            ))}
-          </ul>
+        {/* History Block: Next two rows */}
+        <div className={styles.historyBlock}>
+          {history.map((historyItem, id) => (
+            <div key={id} className={styles.historyItem}>
+              <img
+                src={getImageUrl(historyItem.imageSrc)}
+                alt={`${historyItem.organisation} Logo`}
+              />
+              <div className={styles.historyItemDetails}>
+                <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
+                <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
+                <ul>
+                  {historyItem.experiences.map((experience, idx) => (
+                    <li key={idx}>{experience}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

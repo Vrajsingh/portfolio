@@ -1,9 +1,17 @@
 [
   {
+    "role": "Associate Consultant",
+    "organisation": "Infosys limited",
+    "startDate": "Feb, 2025",
+    "endDate": "Present",
+    "experiences": ["Apple : Java 17, Spring Boot 3.2, Project Reactor (Reactive Programming), Apache Kafka, MongoDB, AWS (S3, EC2), Microservices, TypeScript"],
+    "imageSrc": "history/infosys.png"
+  },
+  {
     "role": "Technology Consultant",
     "organisation": "Technogise Pvt limited",
     "startDate": "May, 2022",
-    "endDate": "Present",
+    "endDate": "Jan, 2025",
     "experiences": ["Ballys : Kafka, Spring Boot, MongoDB","Grow-wize : React, Java Spring Boot", "Shippit : Ruby on Rails, PostgreSQL"],
     "imageSrc": "history/technogise.png"
   }

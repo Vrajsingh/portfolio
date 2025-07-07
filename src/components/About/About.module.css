@@ -66,31 +66,6 @@
   font-size: 25px;
 }
 
-.aboutItemText {
-  font-family: var(--font-roboto), 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--color-text);
-  padding: 16px;
-  background-color: #f7f9fc;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  max-width: 600px;
-  line-height: 1.6;
-}
-
-.aboutItemText h3 {
-  font-size: 28px;
-  font-weight: 600;
-  margin-bottom: 8px;
-  color: var(--color-primary);
-}
-
-.aboutItemText p {
-  font-size: 18px;
-  font-weight: 400;
-  margin: 0;
-  color: var(--color-text-secondary, #333);
-}
-
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;

@@ -28,6 +28,10 @@
     "imageSrc": "skills/springboot.png"
   },
   {
+    "title": "Kafka",
+    "imageSrc": "skills/kafka.png"
+  },
+  {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
   }

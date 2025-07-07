@@ -4,7 +4,7 @@
     "organisation": "Infosys limited",
     "startDate": "Feb, 2025",
     "endDate": "Present",
-    "experiences": ["Apple: Java 17, Spring Boot 3.2, Project Reactor (Reactive Programming), Apache Kafka, MongoDB, AWS (S3, EC2), Microservices, TypeScript", "Contributing to Apple Talent Point (ATP), the backend platform managing the complete talent lifecycle.", "Improving code quality enforcement using SonarQube."],
+    "experiences": ["Java 17, Spring Boot 3.2, Project Reactor, Kafka, MongoDB, AWS, Microservices, TypeScript", "Building Apple Talent Point (ATP) to manage end-to-end talent lifecycle.", "Improving deployment and code quality using CI/CD and SonarQube."],
     "imageSrc": "history/infosys.png"
   },
   {

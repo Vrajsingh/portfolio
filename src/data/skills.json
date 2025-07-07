@@ -1,17 +1,5 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
-  {
-    "title": "C++",
-    "imageSrc": "skills/c++.png"
-  },
-  {
     "title": "Java",
     "imageSrc": "skills/java.png"
   },
@@ -34,5 +22,22 @@
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
+  },
+   {
+    "title": "sql",
+    "imageSrc": "skills/sql.png"
+  },
+  {
+    "title": "aws",
+    "imageSrc": "skills/aws.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
   }
+ 
 ]

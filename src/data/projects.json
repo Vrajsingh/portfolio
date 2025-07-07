@@ -3,7 +3,7 @@
     "title": "Apple",
     "imageSrc": "projects/apple.png",
     "description": "Apple Talent Point - Talent Management Portal.",
-    "skills": ["Java Reactive Programming", "Project Reactor", "Kafka", "Microservices"],
+    "skills": ["Java Reactive Programming", "Kafka", "Microservices"],
     "website": "https://jobs.apple.com/"
   },
   {

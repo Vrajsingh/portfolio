@@ -23,7 +23,7 @@ export const Experience = () => {
 
       {/* Skills Row 2 (next 4) */}
       <div className={styles.skillRow}>
-        {skills.slice(5, 9).map((skill, index) => (
+        {skills.slice(5, 10).map((skill, index) => (
           <div key={index} className={styles.skill}>
             <div className={styles.skillImageContainer}>
               <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />

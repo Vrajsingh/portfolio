@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Vishal Raj</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 3+ years of experience in Java Spring Boot Microservices and React. Reach out if you'd like to learn more !!
+          I'm a full-stack developer with 4 years of experience in Java Spring Boot Microservices and React. Reach out if you'd like to learn more !!
         </p>
         <a href="mailto:vishalrajput@gmail.com" className={styles.contactBtn}>
           Contact Me
@@ -25,3 +25,4 @@ export const Hero = () => {
     </section>
   );
 };
+

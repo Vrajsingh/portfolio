@@ -1,5 +1,12 @@
 [
   {
+    "title": "Coca-Cola",
+    "imageSrc": "projects/Coca-Cola-logo.png",
+    "description": "The Coca Cola Company - PO Automation",
+    "skills": ["Java (v25) ", "Spring Batch", "Azure"],
+    "website": "https://www.coca-colacompany.com/"
+  },
+  {
     "title": "Apple",
     "imageSrc": "projects/apple.png",
     "description": "Apple Talent Point - Talent Management Portal.",
